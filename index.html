@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mysty.css">
+    <script >
+        function openNav() {
+    document.getElementById("mySidepanel").style.width = "250px";
+  }
+  
+  /* Set the width of the sidebar to 0 (hide it) */
+  function closeNav() {
+    document.getElementById("mySidepanel").style.width = "0";
+  }
+  console.log("i am not");
+    </script>
+    <title>Demo app</title>
+</head>
+<body>
+    <nav class="navbar" >
+        <ul class="navlist">
+            <div class="burger" onclick="openNav()">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <div id="mySidepanel" class="sidepanel">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Factorizor</a>
+              </div>
+            <div class="logo"><h2>Troika</h2></div>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li><a href="#Factorizor">Factorizor</a></li>
+        </ul>
+        <div class="rightnav">
+            <input type="text" name="search" id="search">
+            <button class="btn">Search</button>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="book">
+            <img src="https://m.media-amazon.com/images/I/41n1edvVlLL._AC_UY218_.jpg" alt="">
+            <h2>Steve Jobs</h2>
+        </div>
+        <div class="book">
+            <img src="https://m.media-amazon.com/images/I/71AdHA+qqwL._AC_UY218_.jpg" alt="">
+            <h2>Think and Grow Rich</h2>
+        </div>
+        <div class="book">
+            <img src="https://m.media-amazon.com/images/I/81dQwQlmAXL._AC_UY218_.jpg" alt="">
+            <h2>Rich Dad Poor Dad</h2>
+        </div>
+        <div class="book">
+            <img src="https://m.media-amazon.com/images/I/91bYsX41DVL._AC_UY218_.jpg" alt="">
+            <h2>Atomic Habits</h2>
+        </div>
+        <div class="book">
+            <img src="https://m.media-amazon.com/images/I/81ixRxn+JKL._AC_UY218_.jpg" alt="">
+            <h2>How to win and Influence People</h2>
+        </div>
+        <div class="book">
+            <img src="https://m.media-amazon.com/images/I/713jIoMO3UL._AC_UY218_.jpg" alt="">
+            <h2>Sapiens</h2>
+        </div>
+        <div class="book">
+            <img src="https://m.media-amazon.com/images/I/81iUXe9ygkL._AC_UY218_.jpg" alt="">
+            <h2>Elon Musk</h2>
+        </div>
+        <div class="book">
+            <img src="https://m.media-amazon.com/images/I/71m-MxdJ2WL._AC_UY218_.jpg" alt="">
+            <h2>Zero To One</h2>
+        </div>
+        <div class="book">
+            <img src="https://m.media-amazon.com/images/I/71aFt4+OTOL._AC_UY218_.jpg" alt="">
+            <h2>The Alchemist</h2>
+        </div>
+    </div>
+</body>
+</html>
