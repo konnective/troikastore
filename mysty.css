@@ -118,7 +118,7 @@ button:hover{
 }
 
 
-@media  screen and (max-width:400px){
+@media  screen and (max-width:470px){
     .navlist{
         flex-direction: row;
     }
